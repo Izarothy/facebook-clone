@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function NavBar() {
     return (
-        <nav className="hidden lg:flex justify-between bg-gray-800 p-4 pb-1 w-full fixed">
+        <nav className="hidden lg:flex justify-between bg-gray-800 p-4 pb-1 w-full fixed z-10">
           <div className="flex -mt-1">
             <a href="/">
             <img src="https://img.icons8.com/color/48/000000/facebook-new.png" className="-mt-1 mr-2 shadow-md rounded-full" />

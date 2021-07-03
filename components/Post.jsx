@@ -11,21 +11,23 @@ export default function Post(props) {
                 <p className="my-2">{props.text}</p>
             </div>
             <a href={props.image} target="_blank">
-                <Image width="720" height="1024" src={props.image} />
+                <Image width="720" height="860" src={props.image} />
             </a>
             <div>
                 <div className="flex justify-between p-3">
                     <div className="flex">
-                        <img src="https://lh3.googleusercontent.com/proxy/bBf7An6u5KpNnD8f-ojwmefPixgacJHGewl5bmtmoYF6H1JZOfxlYV0-U0vi_8W6YpMHqN-FxT15e7EPgGQvZmbs28Rj99TVQV9TR8zJjrdK3FSJ6Vc" className="w-6 h-6 mr-2" />
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 mr-2" fill="blue" viewBox="0 0 24 24" stroke="white">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={0.5} d="M14 10h4.764a2 2 0 011.789 2.894l-3.5 7A2 2 0 0115.263 21h-4.017c-.163 0-.326-.02-.485-.06L7 20m7-10V5a2 2 0 00-2-2h-.095c-.5 0-.905.405-.905.905 0 .714-.211 1.412-.608 2.006L7 11v9m7-10h-2M7 20H5a2 2 0 01-2-2v-6a2 2 0 012-2h2.5" />
+                    </svg>
                         <span> 1</span>
                     </div>
                     <div className="text-sm text-gray-400">3 comments <span className="m-2">4 shares</span></div>
                 </div>
                 <div className="flex justify-between border-b border-t border-1 border-gray-700 px-3 py-2 font-medium">
                     <a className="flex justify-center text-gray-400 hover:bg-gray-600 rounded-xl px-2 py-1 w-full" href="#">
-                        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 10h4.764a2 2 0 011.789 2.894l-3.5 7A2 2 0 0115.263 21h-4.017c-.163 0-.326-.02-.485-.06L7 20m7-10V5a2 2 0 00-2-2h-.095c-.5 0-.905.405-.905.905 0 .714-.211 1.412-.608 2.006L7 11v9m7-10h-2M7 20H5a2 2 0 01-2-2v-6a2 2 0 012-2h2.5" />
-                        </svg>    Like
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 10h4.764a2 2 0 011.789 2.894l-3.5 7A2 2 0 0115.263 21h-4.017c-.163 0-.326-.02-.485-.06L7 20m7-10V5a2 2 0 00-2-2h-.095c-.5 0-.905.405-.905.905 0 .714-.211 1.412-.608 2.006L7 11v9m7-10h-2M7 20H5a2 2 0 01-2-2v-6a2 2 0 012-2h2.5" />
+                    </svg>    Like
                         </a>
                         <a className="flex justify-center text-gray-400 hover:bg-gray-600 rounded-xl px-2 py-1 w-full" href="#">
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
