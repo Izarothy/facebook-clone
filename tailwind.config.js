@@ -9,7 +9,7 @@ module.exports = {
         'montserrat': ['Montserrat']
       },
       gridTemplateColumns: {
-        'uneven': '17% 66% 17%'
+        'uneven': '15% 70% 15%'
       },
       gridTemplateRows: {
         'sidemenu': '1fr 1fr 1fr'

@@ -18,9 +18,6 @@ export default function Home() {
           <SideMenu />
           <Main />
           <RightMenu />
-          {/* TODO right side friends
-          TODO comments
-          TODO mobile responsive */}
         </div>
       </main>
     </div>
